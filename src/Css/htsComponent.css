@@ -1,0 +1,70 @@
+.hts-container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--yellow, linear-gradient(90deg, #F90 0%, #F2CB00 100%));
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.06);;
+    padding: 4% 0%;
+}
+.hts-h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.hts-h1{
+    color: #16205F;
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 58px;
+}
+.hts-p{
+    color: var(--black, #16205F);
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    width: 453px;
+}
+
+.hts-steps{
+    display: flex;
+    position: relative;
+}
+.hts-step-order{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+.hts-naming{
+    color: #16205F;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 36px;
+}
+.hts-number{
+    color: #16205F;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.hts-steps{
+    
+    margin-top: 16px;
+}
+.hts-step{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 80px;
+}

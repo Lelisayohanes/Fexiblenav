@@ -1,0 +1,42 @@
+.clients-container{
+    background-color: #F9F9F9;
+    padding: 3% 10%;
+}
+
+.clients-h3{
+    color: var(--black, #16205F);
+    text-align: center;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.clients-h2{
+    color: var(--black, #16205F);
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 58px;
+}
+.client-logo{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.each-logo{
+    
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../src//assets//image/Rectangle\ 60.png');
+    color:#A6A6A6;
+}
+.right{
+    background: #F9F9F9;
+}
