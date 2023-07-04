@@ -1,0 +1,44 @@
+
+.service-container{
+    padding-top: 100px;
+    overflow: hidden;
+    margin: 6% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+.service{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.image{
+    background-color: yellow;
+    width: 75px;
+    height: 70px;
+    flex-shrink: 0;
+    padding: 2px;
+    border-radius: 5px;
+}
+.service-header{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #16205F);
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 1px;
+}
+.service-paragraph{
+    color: var(--black, #16205F);
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
